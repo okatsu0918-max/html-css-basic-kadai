@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Meiryo, sans-serif;
+}
+html {
+  font-size: 20px;
+}
+/* ピンク色 */
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* スカイブルー */
+.blue {
+  color: skyblue;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;                 /* ルートの2倍 (20px × 2 = 40px) */
+  line-height: 1.2;
+
+  text-shadow: 0 3px rgb(115, 115, 114); /* 指定どおり下に影 */
+  border-bottom: 3px solid rgb(115, 115, 114);
+    letter-spacing: 1.0em;    
+}
+
+/* 1. 全体のテキストを中央寄せ */
+body {
+  text-align: center;
+}
+
+/* 2. basic 内の p だけ太字にする */
+#basic p {
+  font-weight: bold;
+}
+
+/* 3. 他の p は太字にしない（基本はノーマル） */
+p {
+  font-weight: normal;
+}
